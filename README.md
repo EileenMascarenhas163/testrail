@@ -1,4 +1,3 @@
-![Tests](https://github.com/gurock/trcli/actions/workflows/python-app.yml/badge.svg)
 
 trcli - The TestRail CLI
 ================================
@@ -10,9 +9,6 @@ The TestRail CLI currently supports:
 - **Uploading automated test results from JUnit reports**
 - **Auto-generating test cases from OpenAPI specifications**
 
-To see further documentation about the TestRail CLI, please refer to the 
-[TestRail CLI documentation pages](https://support.gurock.com/hc/en-us/articles/7146548750868-TestRail-CLI)
-on the TestRail help center.
 
 Installation
 ------------
