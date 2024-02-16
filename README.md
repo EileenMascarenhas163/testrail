@@ -9,7 +9,8 @@ The TestRail CLI currently supports:
 - **Uploading automated test results from JUnit reports**
 - **Auto-generating test cases from OpenAPI specifications**
 
-#Test automation workflows
+test automation workflow
+================================
 ![alt text](https://support.testrail.com/hc/article_attachments/14789154991124)
 
 Installation
