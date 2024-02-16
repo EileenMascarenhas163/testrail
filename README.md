@@ -9,6 +9,8 @@ The TestRail CLI currently supports:
 - **Uploading automated test results from JUnit reports**
 - **Auto-generating test cases from OpenAPI specifications**
 
+#Test automation workflows
+![alt text](https://support.testrail.com/hc/article_attachments/14789154991124)
 
 Installation
 ------------
@@ -69,16 +71,14 @@ Commands:
   parse_openapi  Parse OpenAPI spec and create cases in TestRail
   parse_robot    Parse Robot Framework report and upload results to TestRail
 ```
-
+Configuring your TestRail instance
+Before using the TestRail CLI, you first need to enable the TestRail API for your instance. You can do this by accessing Administration > Site Settings, clicking on the API tab, and checking the Enable API option. You can refer to the API Introduction page for more information.
 Uploading automated test results
 --------
+![alt text](https://media.gurock.com/gk-media/screenshots/user-guide/TRCLI_enable_api.png)
 
-The `parse_junit` command allows you to upload automated test results, provided that you are using
-a framework that supports generating JUnit XML report files, such as Cypress, Playwright, JUnit5, TestNG, and Pytest. 
-In case you are using Robot Framework, you can use the `parse_robot` command using the same parameters. 
+. 
 
-In the next sections you will find information on how to use the TestRail CLI for **code-first** and
-**specification-first** approaches to test automation.
 
 ### Reference
 ```shell
